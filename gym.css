@@ -140,6 +140,7 @@ ul li a{
 .main-fitness{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
     justify-content: space-evenly;
     align-items: center;
 }
