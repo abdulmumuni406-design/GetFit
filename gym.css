@@ -90,6 +90,7 @@ ul li a{
     padding-bottom: 14px;
     margin-top: 50px;
     width:35%;
+    cursor: pointer;
 }
 .state{
     background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./gymimages/state.jpg");
@@ -242,4 +243,59 @@ span{
     padding-top: 13px;
     padding-bottom: 13px;
     margin-top: 20px;
+    cursor: pointer;
+}
+.main-personal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.personal{
+    width:50%;
+    /* margin-left: 10px; */
+    margin-top: 60px;
+    /* padding: 10px; */
+}
+.personal h2{
+    font-size: 36px;
+}
+.personal p{
+    font-size:18px;
+    color:#58606E;
+    margin-top:15px;
+    
+}
+.workout-plans{
+    display:block;
+    list-style-type: disc;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.workout-plans li{
+    padding:8px;
+}
+.explore{
+    border: none;
+    font-size:16px;
+    color:white;
+    background-color: #DC2626;
+    border-radius: 20px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:11px;
+    padding-bottom:11px;
+    width:30%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.instructors{
+    margin-top: 70px;
+   
+}
+.instructors-image{
+    width:550px;
+    height:370px;
+    object-fit: cover;
+    border-radius: 16px;
 }
