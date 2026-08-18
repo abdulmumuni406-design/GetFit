@@ -40,7 +40,7 @@ ul li a{
     
 }
 .join{
-    background-color: red;
+    background-color: #DC2626;
     border-radius: 15px;
     padding: 5px;
     /* margin-bottom: 8px; */
@@ -79,7 +79,7 @@ ul li a{
     
 }
 .get{
-    background-color: red;
+    background-color: #DC2626;
     color:white;
     font-size: 15px;
     border: none;
@@ -171,4 +171,75 @@ ul li a{
 .check{
     width:60px;
     height:60px; 
+}
+.main-membership{
+background-color: #F9FAFB;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.membership{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.membership h2{
+    font-size:36px;
+    font-weight: 700;
+}
+.membership p{
+    font-size: 18px;
+    font-weight: 500;
+    color:#58606E;
+    margin-top: 15px;
+}
+.main-monthly{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.monthly{
+    padding:37px;
+    border-radius: 15px;
+    box-shadow: 0px -0px 5px rgba(0, 0, 0, 0.176);
+    width:380px;
+    height: 400px;
+    
+    
+}
+.regular{
+    color:#58606E;
+}
+.dollar{
+    color:#DC2626;
+    font-size:36px;
+    font-weight: 700px;
+}
+span{
+    font-size: 18px;
+    color:rgb(75, 85, 99);
+}
+.gym-items{
+    display: block;
+    list-style-type:disc;
+    margin-top: 20px;
+}
+.gym-items li{
+    padding:7px;
+}
+.learn{
+    color:white;
+    background-color: #DC2626;
+    border: none;
+    width:90%;
+    border-radius: 12px;
+    font-size:16px;
+    font-weight: 600;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 20px;
 }
