@@ -299,3 +299,48 @@ span{
     object-fit: cover;
     border-radius: 16px;
 }
+.main-what{
+    background-color: #F9FAFB; 
+    padding-top: 50px;
+}
+.what{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.what h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.main-members{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.sarah{
+    border-radius: 17px;
+    width:370px;
+    height:170px;
+    padding:15px;
+     box-shadow: 0px -0px 5px rgba(0, 0, 0, 0.176);
+     padding-top:23px;
+     margin-top: 50px;
+      margin-bottom: 70px;
+}
+
+.sarah h3{
+   font-size:16px; 
+   
+}
+.member{
+    font-size:14px;
+    color:#58606E;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom:10px;
+}
+.flexzone{
+    color:rgb(55, 65, 81);
+    font-weight:500;
+    
+}
