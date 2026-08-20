@@ -50,7 +50,10 @@ ul li a{
     color:white;
 
 }
-
+#menuBtn{
+    display:none;
+    
+}
 .hero{
     background-color: #111827;
 }
@@ -210,9 +213,7 @@ padding-bottom: 50px;
     border-radius: 15px;
     box-shadow: 0px -0px 5px rgba(0, 0, 0, 0.176);
     width:380px;
-    height: 400px;
-    
-    
+    height: 400px;  
 }
 .regular{
     color:#58606E;
@@ -459,4 +460,155 @@ hr{
 .main-privacy p{
     color:rgb(156, 163, 175);
     font-size: 14px;
+}
+@media screen and (min-width:300px) and (max-width:760px){
+    nav{
+   top:-1px;
+   
+   
+   }
+    .nav-items{
+        display:none;
+    }
+    #menu.Btn{
+        display: block;
+        padding:10px;
+    }
+    .hero{
+        flex-wrap: wrap;
+    }
+    .transform{
+    width:100%;
+    margin-top: 100px;
+    margin-left: 10px;
+     padding:0; 
+    
+}
+    .transform h2{
+        font-size: 33px;
+        padding:5px;
+    }
+    .transform p{
+     margin-top:10px;
+     font-size: 18px;
+     padding: 5px;
+    
+}
+.get-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get{
+    border-radius: 13px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top:14px ;
+    padding-bottom: 14px;
+    margin-top: 20px;
+    width:90%;
+   
+}
+.state{
+ width:500px;
+    height: 300px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    border-radius: 25px;
+    
+}
+.state-of{
+    margin-top:80px;
+}
+.state h3{
+    font-size:25px;
+}
+
+.state p{
+    margin-top: 13px;
+}
+.why{
+    margin-top: 30px;
+}
+.why h2{
+    font-size:28px;
+    padding: 5px;
+    text-align: center;
+}
+.why p{
+    font-size: 18px;
+    text-align: center;
+    padding: 4px;
+    margin-top: 10px; 
+}
+.main-fitness{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.latest-fitness{
+    width:280px;
+    height:230px;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -0px 5px rgba(0, 0, 0, 0.176);
+    padding:35px;
+    border-radius: 15px;
+}
+
+.membership h2{
+    font-size:30px;
+    padding: 5px;
+}
+.membership p{
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 5px;
+}
+.main-membership{
+padding-top: 20px;
+padding-bottom: 50px;
+}
+.main-monthly{
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    gap:18px;
+}
+.monthly{
+    padding:30px;
+    width:280px;
+    height: 370px;  
+}
+.main-personal{
+    flex-wrap:wrap;
+    padding-bottom: 30px;
+}
+.personal{
+    width:100%;
+    margin-top: 30px;
+    padding: 17px;
+}
+.personal h2{
+    font-size: 36px;
+}
+.explore{
+    width:50%;
+}
+.instructors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.instructors-image{
+    width:350px;
+    height:280px;
+}
 }
