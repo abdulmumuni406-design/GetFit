@@ -669,4 +669,8 @@ padding-bottom: 50px;
 .copy p{
     text-align: center;
 }
+.main-privacy{
+    gap:10px;
+    margin-left: 32px;
+}
 }
